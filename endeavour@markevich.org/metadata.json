@@ -1,8 +1,0 @@
-{
-    "uuid": "endeavour@markevich.org",
-    "name": "Endeavour Launcher",
-    "description": "A simple applet to launch GNOME Endeavour task manager",
-    "author": "Michael Markevich",
-    "version": "0.1",
-    "max-instances": 1
-}

@@ -3,7 +3,7 @@
 const Applet = imports.ui.applet;
 const GLib = imports.gi.GLib;
 
-const UUID = 'endeavour@markevich.org';
+const UUID = 'endeavour-launcher@markevich.org';
 
 function EndeavourApplet(orientation, panel_height, instance_id) {
     this._init(orientation, panel_height, instance_id);
@@ -16,7 +16,7 @@ EndeavourApplet.prototype = {
         Applet.IconApplet.prototype._init.call(this, orientation, panel_height, instance_id);
 
         this.set_applet_icon_name("endeavour");
-        this.set_applet_tooltip(_("Launch Endeavour"));
+        this.set_applet_tooltip(_("Open Endeavour"));
     },
 
     on_applet_clicked: function() {
