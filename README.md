@@ -1,2 +1,2 @@
 # endeavour-launcher
-A Cinnamon applet to launch Gnome Endeavour application
+A simple Cinnamon applet to launch Gnome Endeavour application
